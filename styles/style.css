@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,html {
+    font-family: "Poppins", serif;
+    font-size: 62.5%;
+    width: 90%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+/* sared styles */
+:root {
+    --primary-color:rgb(58, 58, 58);
+}
+.primary-description {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+.btn-primary {
+    border-radius: 4.1rem;
+    border: none;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    padding: 10px 24px 10px 24px;
+    font-weight: 700;
+    line-height: 24px;
+    transition-duration: .30s;
+}
+.btn-primary:hover {
+    padding: 10px 24px 10px 35px;
+    /* transform: scale(1.2); */
+}
+/* navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    gap: 34px;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    /* line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left; */
+}
+.brand {
+    color: var(--primary-color);
+    font-family: Poppins;    
+    font-size: 2.4rem;
+    font-weight: 700;
+    /* line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left; */
+}
+/* banner styles */
+.banner {
+    display: flex;
+}
+.banner-content {
+    max-width: 582px;
+}
+.banner-title {
+    color: var(--primary-color);
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+.img-container {
+    margin-left: 30px;
+    background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+/* logo-box styles */
+.logo-box {
+    margin: 105px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 40px;
+    align-items: center;
+    /* border-top: 1px solid gray; */
+ }
+
+ /* cards styles */
+ .card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 1047px;
+    margin: 50px auto;
+ }
+ .section-title {
+    color: var(--primary-color);
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+ }
+ .card-title {
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;  
+ }
+ .price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+ }
+ .card-description {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+ }
+ .card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+ }
+ .card img {
+    height: 256px;
+    border-radius: 5px;
+    width: 100%;
+ }
+ .see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+ }
