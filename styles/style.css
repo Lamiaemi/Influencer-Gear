@@ -93,12 +93,11 @@ img {
 }
 /* logo-box styles */
 .logo-box {
-    margin: 105px auto;
+    margin: 105px 50px;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     gap: 40px;
     align-items: center;
-    /* border-top: 1px solid gray; */
  }
 
  /* cards styles */
